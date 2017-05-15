@@ -1,0 +1,5 @@
+# Ignoring compiled output
+dist/
+
+# Ignoring node modules
+node_modules/
