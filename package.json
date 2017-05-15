@@ -1,21 +1,21 @@
 {
-  "name": "codipy",
+  "name": "plain-gulp",
   "version": "1.0.0",
-  "description": "Main website for Codipy's business entrepreneur.",
+  "description": "Plain Gulp SPA with Bootstrap and Font-Awesome.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gugarosa/codipy.git"
+    "url": "git+https://github.com/gugarosa/plain-gulp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gugarosa/codipy/issues"
+    "url": "https://github.com/gugarosa/plain-gulp/issues"
   },
-  "homepage": "https://github.com/gugarosa/codipy#readme",
+  "homepage": "https://github.com/gugarosa/plain-gulp#readme",
   "devDependencies": {
     "gulp": "latest",
     "gulp-util": "latest",
