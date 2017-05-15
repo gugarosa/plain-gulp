@@ -1,2 +1,2 @@
-# codipy
-Main website for Codipy's business entrepreneur.
+# Codipy
+Main website for Codipy's startup.
