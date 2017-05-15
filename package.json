@@ -20,8 +20,10 @@
     "gulp": "latest",
     "gulp-util": "latest",
     "gulp-sass": "latest",
+    "gulp-clean-css": "latest",
     "gulp-uglify": "latest",
     "gulp-connect": "latest",
-    "gulp-concat": "latest"
+    "gulp-concat": "latest",
+    "gulp-rename": "latest"
   }
 }
