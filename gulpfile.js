@@ -8,7 +8,7 @@ var gulp = require('gulp'),
   rename = require('gulp-rename');
 
 var jsSource = ['src/js/*.js'],
-  sassSource = ['src/*.scss', 'src/scss/*.scss'],
+  sassSource = ['src/style.scss', 'src/scss/*.scss'],
   htmlSource = ['src/*.html'];
 
 
@@ -22,7 +22,7 @@ gulp.task('copy', function () {
 });
 
 gulp.task('sass', function () {
-  return gulp.src(sassSource)
+  return gulp.src(sassSource[0])
     .pipe(sass({ style: 'expanded' }))
     .on('error', gutil.log)
     .pipe(gulp.dest('dist/css'))
