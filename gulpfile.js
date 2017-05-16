@@ -8,7 +8,7 @@ var gulp = require('gulp'),
   rename = require('gulp-rename');
 
 var jsSource = ['src/js/*.js'],
-  sassSource = ['src/*.scss'],
+  sassSource = ['src/*.scss', 'src/scss/*.scss'],
   htmlSource = ['src/*.html'];
 
 

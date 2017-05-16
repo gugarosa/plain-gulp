@@ -1,10 +1,10 @@
-/* Font Awesome SASS */
-@import "scss/font-awesome/font-awesome";
-
 /* Bootstrap SASS */
-@import "scss/bootstrap-compass";
+@import "scss/variables";
 @import "scss/bootstrap";
 
+/* Font Awesome SASS */
+$fa-font-path: "../../../fonts";
+@import "scss/font-awesome";
 
 /* Main SASS */
 @import "scss/main";
